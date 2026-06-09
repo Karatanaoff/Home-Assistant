@@ -56,7 +56,7 @@ Maintenant que Proxmox tourne, nous allons y installer Home Assistant OS (HAOS) 
 
 Pour que Home Assistant puisse parler en "Thread" avec l'Arduino, il faut lui connecter la clé USB Sonoff et la configurer comme "Routeur de Bordure" (Border Router).
 
-[cliquer sur moi pour ouvrir mon github afin de parametrer votre clé SONOFF](https://github.com/Karatanaoff/Zibee)
+[cliquer sur moi pour accéder au github qui vous permetra de parametrer votre clé SONOFF](https://github.com/Karatanaoff/Zibee)
 
 **1. Relier la clé USB à la machine virtuelle :**
 * Branchez la clé Sonoff sur un port USB du serveur Proxmox.
