@@ -42,7 +42,8 @@ Maintenant que Proxmox tourne, nous allons y installer Home Assistant OS (HAOS) 
 * Depuis votre PC principal, ouvrez l'interface web de Proxmox (`https://IP_PROXMOX:8006`).
 * Dans le menu de gauche, cliquez sur votre "Nœud" (le nom de votre serveur), puis sur **Shell**.
 * Copiez-collez cette commande exacte (créée par tteck) pour générer automatiquement la machine virtuelle :
-`bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/vm/haos.sh)"`
+`bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/haos-vm.sh)"
+`
 * Répondez "Yes" aux questions en laissant les paramètres par défaut.
 
 **2. Premier démarrage :**
