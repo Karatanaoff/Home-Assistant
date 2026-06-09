@@ -42,7 +42,7 @@ Maintenant que Proxmox tourne, nous allons y installer Home Assistant OS (HAOS) 
 * Depuis votre PC principal, ouvrez l'interface web de Proxmox (`https://IP_PROXMOX:8006`).
 * Dans le menu de gauche, cliquez sur votre "Nœud" (le nom de votre serveur), puis sur **DNS**
 
-*Faite un double click surled DNS et ajouter le DNS 1.1.1.1 et 8.8.8.8
+* Faite un double click sur le DNS et ajouter le DNS 1.1.1.1 et 8.8.8.8
 
 * Dans le menu de gauche, encore, cliquez sur votre "Nœud" (le nom de votre serveur), puis sur**Shell**.
 * Copiez-collez cette commande exacte (créée par tteck) pour générer automatiquement la machine virtuelle :
